@@ -148,3 +148,40 @@ footer{
 	justify-content: center;   
 }
 
+.contact {
+	padding: .8rem;
+	overflow: hidden;
+	color: #fff;
+  }
+  
+  .contact label, .contact input{
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;  
+  }
+  
+  .contact label {
+	font-weight: 700; 
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+  }
+  
+  .contact input {
+	border: none;
+	border-bottom: 2px solid #a18262;
+	margin-bottom: 10px;
+	font-size: 20px;
+	outline: none;
+	color: #101010;
+  } 
+  
+  input[type='submit'] {
+	padding: 10px;
+	background: #a18262;
+	border: none;
+	color: #fff;
+	font-size: 25px; 
+	cursor: pointer;
+	font-family: fantasy;
+  
+  }
+
