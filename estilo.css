@@ -1,5 +1,9 @@
 h1 {
 	font-size: 5em   
+} 
+
+section{
+	background-image: url("https://www.gifsanimados.org/data/media/292/arana-imagen-animada-0192.gif");
 }
  
 .font{
@@ -107,15 +111,18 @@ h2{
 	margin: 20px;
 	border-radius: 6px;
 	overflow: hidden;
-	background:#fff;
-	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	background-image: url("https://giffiles.alphacoders.com/158/15859.gif");
+	box-shadow: 0px 1px 10px rgb(121, 74, 74);
 	transition: all 400ms ease-out;
-	cursor: default;
+	cursor: default; 
+	color: #fff;
+
 }
 .card:hover{
 	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
 	transform: translateY(-3%);
 }
+
 .card img{
 	width: 100%; 
 }
@@ -123,31 +130,7 @@ h2{
 	padding: 15px;
 	text-align: center;
 }
-  
-
-.foot{
-	list-style: none;
-	text-align: center;
-	line-height : 50px;
-	font-size: 25px;
-}
-
-.foot-edit{
-	text-decoration: none;
-	color: white;
-}
- 
-footer{
-	position: relative;
-	width: 100%;
-	height: 400px;
-	background: #101010;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;   
-}
-
+   
 .contact {
 	padding: .8rem;
 	overflow: hidden;
@@ -184,4 +167,32 @@ footer{
 	font-family: fantasy;
   
   }
+
+.foot{
+	list-style: none;
+	text-align: center;
+	line-height : 50px;
+	font-size: 25px;
+}
+ 
+.foot-edit{
+	text-decoration: none;
+	color: white;
+}
+
+.foot-edit:hover{
+	color:#a18262; 
+}
+
+footer{
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background: #101010;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;   
+}
+
 
